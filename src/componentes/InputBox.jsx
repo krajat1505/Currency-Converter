@@ -44,6 +44,7 @@ function InputBox({
         >
           {currencyOptions.map((currency) => (
             <option key={currency} value={currency}>
+              {console.log(currency)}
               {currency}
             </option>
           ))}
